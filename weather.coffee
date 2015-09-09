@@ -1,0 +1,1 @@
+class Dashing.Weather3 extends Dashing.Widget

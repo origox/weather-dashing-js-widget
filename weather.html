@@ -1,0 +1,39 @@
+<h1 class="primary-info" data-bind="weatherdata[0].temp"></h1>
+
+<img class="primary-icon" data-bind-src="weatherdata[0].image | prepend '/assets'" />
+
+<hr>
+
+<table>
+	<tr>
+		<th data-bind="weatherdata[1].day"></th>
+		<th data-bind="weatherdata[2].day"></th>
+		<th data-bind="weatherdata[3].day"></th>
+		<th data-bind="weatherdata[4].day"></th>
+		<th data-bind="weatherdata[5].day"></th>
+	</tr>
+	<tr>
+		<th data-bind="weatherdata[1].temp"></th>
+		<th data-bind="weatherdata[2].temp"></th>
+		<th data-bind="weatherdata[3].temp"></th>
+		<th data-bind="weatherdata[4].temp"></th>
+		<th data-bind="weatherdata[5].temp"></th>
+	</tr>
+	<tr>
+		<th>
+			<img class="secondary-icon" data-bind-src="weatherdata[1].image | prepend '/assets'"/>
+		</th>
+		<th>
+			<img class="secondary-icon" data-bind-src="weatherdata[2].image | prepend '/assets'" />
+		</th>
+		<th>
+			<img class="secondary-icon" data-bind-src="weatherdata[3].image | prepend '/assets'" />
+		</th>
+		<th>
+			<img class="secondary-icon" data-bind-src="weatherdata[4].image | prepend '/assets'" />
+		</th>
+		<th>
+			<img class="secondary-icon" data-bind-src="weatherdata[5].image | prepend '/assets'" />
+		</th>
+	</tr>
+</table>	
